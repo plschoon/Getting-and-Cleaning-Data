@@ -1,7 +1,7 @@
 ================================================================================================================================================
-COURSE PROJECT GETTING AND CLEANING DATA
+COURSE PROJECT
 ================================================================================================================================================
-AIM AND OBJECTIVES
+Aim and Objectives
 ================================================================================================================================================
 Companies like FitBit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. 
 The data linked are collected from the accelerometers from the Samsung Galaxy S smartphone.
@@ -15,7 +15,7 @@ The aim of the project is to clean and extract usable data and to submit an R sc
 * From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ================================================================================================================================================
-THE DATA
+The Data
 ================================================================================================================================================
 A full description of the experiment is available at the site where the data was obtained: 
 
@@ -28,15 +28,15 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 Additional information on the files in this dataset can be found in the README.txt included in the UCI HAR Dataset
 
 ================================================================================================================================================
-SUBMISSION 
+Submission 
 ================================================================================================================================================
 The following files are submitted: 
 
-	* R script called run_analysis.R
-	* tidy dataset called tidydata.txt	
-	* README.md
-	* CodeBook.md
-	* a link to a Github repository with the script for performing the analysis
+* R script called run_analysis.R
+* tidy dataset called tidydata.txt
+* README.md
+* CodeBook.md
+* a link to a Github repository with the script for performing the analysis
 	
 ================================================================================================================================================
 
