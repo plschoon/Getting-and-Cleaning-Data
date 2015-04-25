@@ -8,7 +8,6 @@
 ##    5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
-
 if (!require("data.table")) {
       install.packages("data.table")
 }
