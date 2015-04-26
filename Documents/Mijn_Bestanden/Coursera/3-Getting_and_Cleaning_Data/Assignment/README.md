@@ -13,7 +13,6 @@ The aim of the project is to clean and extract usable data and to submit an R sc
 * Uses descriptive activity names to name the activities in the data set
 * Appropriately labels the data set with descriptive variable names.
 * From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-
 ================================================================================================================================================
 The Data
 ================================================================================================================================================
@@ -26,7 +25,6 @@ The data for the project can be downloaded from the following website and is cal
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 Additional information on the files in this dataset can be found in the README.txt included in the UCI HAR Dataset
-
 ================================================================================================================================================
 Submission 
 ================================================================================================================================================
@@ -36,7 +34,5 @@ The following files are submitted:
 * tidy dataset called tidydata.txt
 * README.md
 * CodeBook.md
-* a link to a Github repository with the script for performing the analysis
-	
 ================================================================================================================================================
 
