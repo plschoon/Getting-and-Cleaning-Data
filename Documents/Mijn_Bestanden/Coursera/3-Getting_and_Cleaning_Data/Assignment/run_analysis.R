@@ -53,6 +53,7 @@ features_names <- gsub("^t", "time", features_names)
 features_names <- gsub("^f", "frequency", features_names)
 features_names <- gsub("Acc", "Accel", features_names)
 features_names <- gsub("Mag", "Magn", features_names)
+features_names <- gsub("meanFreq", "average.frequency", features_names)
 features_names <- gsub("BodyBody", "Body", features_names)
 
 # Merging the data tables within each category
