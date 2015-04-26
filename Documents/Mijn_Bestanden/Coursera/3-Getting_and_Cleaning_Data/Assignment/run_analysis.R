@@ -56,12 +56,12 @@ features_names <- gsub("Mag", "Magn", features_names)
 features_names <- gsub("meanFreq", "average.frequency", features_names)
 features_names <- gsub("BodyBody", "Body", features_names)
 
-# Merging the data tables within each category
+## Merging the data tables within each category
 subject <- rbind(subject_train, subject_test)
 X <- rbind(X_train, X_test)
 y <- rbind(y_train, y_test)
 
-# renaming variables
+## renaming variables
 names(subject) <- "ID"
 names(X) <- features_names
 names(y) <- "activity"
