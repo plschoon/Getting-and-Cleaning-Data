@@ -90,15 +90,16 @@ The script applies the following conversions to the original dataset:
  
  4. Relabeling of the descriptive feature names
  	- unwanted separators removed ("-" replaced by "."; () removed)
-	- acronyms replaced (t = time; f = frequency; Acc = Accel; Mag = Magn) 
+	- acronyms replaced (t = time; f = frequency; Acc = Accel; Mag = Magn; meanFreq = average.frequency) 
 	- mistakes in features.txt removed (BodyBody = Body)
-		
+	
 			features_names <- gsub("-", ".", features$V2)
 			features_names <- gsub("\\(|\\)", "", features_names)
 			features_names <- gsub("^t", "time", features_names)
 			features_names <- gsub("^f", "frequency", features_names)
 			features_names <- gsub("Acc", "Accel", features_names)
 			features_names <- gsub("Mag", "Magn", features_names)
+			features_names <- gsub("meanFreq", "average.frequency", features_names)
 			features_names <- gsub("BodyBody", "Body", features_names)
 		
  5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
